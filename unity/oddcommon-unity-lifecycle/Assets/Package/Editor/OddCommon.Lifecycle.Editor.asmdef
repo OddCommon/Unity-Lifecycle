@@ -1,9 +1,10 @@
 {
     "name": "OddCommon.Lifecycle.Editor",
+    "rootNamespace": "",
     "references": [
-        "GUID:16eea3414a0614cc895a8b9cb73f8b79",
-        "GUID:beba951124cea4468ac5e99e96ff6382",
-        "GUID:65264937be25a4e86ada8bd5be824dc7",
+        "GUID:a970408fd132045c9bcf11d746c2f9b3",
+        "GUID:4a313b0a8165d417a9eac229e754fa2c",
+        "GUID:ed97505aa053d48f5b9be681b64036bb",
         "GUID:fe2adc2a681e441b490a9272a3d68bf1"
     ],
     "includePlatforms": [
