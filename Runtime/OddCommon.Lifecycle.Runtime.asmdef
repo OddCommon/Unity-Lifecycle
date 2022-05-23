@@ -1,0 +1,17 @@
+{
+    "name": "OddCommon.Lifecycle.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a970408fd132045c9bcf11d746c2f9b3",
+        "GUID:ed97505aa053d48f5b9be681b64036bb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

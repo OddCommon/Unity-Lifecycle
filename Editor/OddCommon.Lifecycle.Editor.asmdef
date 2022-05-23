@@ -1,0 +1,21 @@
+{
+    "name": "OddCommon.Lifecycle.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a970408fd132045c9bcf11d746c2f9b3",
+        "GUID:4a313b0a8165d417a9eac229e754fa2c",
+        "GUID:ed97505aa053d48f5b9be681b64036bb",
+        "GUID:128a4f708a6174607a4841239364618d"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
