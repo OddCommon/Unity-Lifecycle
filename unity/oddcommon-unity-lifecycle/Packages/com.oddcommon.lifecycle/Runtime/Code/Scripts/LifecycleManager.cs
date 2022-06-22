@@ -8,7 +8,7 @@ using OddCommon.Messaging;
 
 namespace OddCommon.Lifecycle
 {
-    public class LifecycleManager : MessagingBehaviourSingle<LifecycleManager>
+    public class LifecycleManager : MessagingBehaviour<LifecycleManager, LifecycleRuntimeData>
     {
         #region Fields
         #region Private

@@ -4,7 +4,7 @@ using OddCommon.Messaging;
 
 namespace OddCommon.Lifecycle.Tests
 {
-    public class LifecycleMessagesTestReceiver : MessagingBehaviourSingle<LifecycleMessagesTestReceiver>, ILifecycle
+    public class LifecycleMessagesTestReceiver : MessagingBehaviour<LifecycleMessagesTestReceiver, LifecycleRuntimeData>, ILifecycle
     {
         #region ILifecycle
         public void LifecycleStart(float timeSinceStartup)

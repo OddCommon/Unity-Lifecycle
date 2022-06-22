@@ -124,6 +124,52 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &296058049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 296058051}
+  - component: {fileID: 296058050}
+  m_Layer: 0
+  m_Name: DataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &296058050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296058049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: febfdb78d7f034a5f88575b33e289585, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onlyAllowSingleInstance: 1
+  isBeingDestroyed: 0
+  runtimeData: {fileID: 11400000, guid: d88a55bbe76c444bd95924b75f377d74, type: 2}
+--- !u!4 &296058051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296058049}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,6 +358,11 @@ PrefabInstance:
       propertyPath: messagingManager
       value: 
       objectReference: {fileID: 1409054779}
+    - target: {fileID: 2488154878569820824, guid: 55ca658cb03964c2e90f9f33a91ba7e0,
+        type: 3}
+      propertyPath: runtimeDataInjector
+      value: 
+      objectReference: {fileID: 296058050}
     - target: {fileID: 8338380519318754616, guid: 55ca658cb03964c2e90f9f33a91ba7e0,
         type: 3}
       propertyPath: m_RootOrder
@@ -403,9 +454,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69640f0f74690483da414414df73c74c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyDuplicateGameObjects: 0
+  onlyAllowSingleInstance: 0
+  isBeingDestroyed: 0
+  runtimeDataInjector: {fileID: 296058050}
   messagingManager: {fileID: 1409054779}
-  crossSceneMessagingManager: 0
 --- !u!4 &1276285728
 Transform:
   m_ObjectHideFlags: 0
@@ -449,7 +501,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f24013cb26c4040a08aab1ef77f523c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyDuplicateGameObjects: 0
+  onlyAllowSingleInstance: 0
+  isBeingDestroyed: 0
 --- !u!4 &1409054780
 Transform:
   m_ObjectHideFlags: 0

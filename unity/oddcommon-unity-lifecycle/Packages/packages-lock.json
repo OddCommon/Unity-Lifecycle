@@ -5,15 +5,15 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "98bc730507685afe21860bf1821ee1b7421aa7d2"
+      "hash": "450dfb2a1f9ba3987820826882046b3729eead3d"
     },
     "com.oddcommon.lifecycle": {
       "version": "file:com.oddcommon.lifecycle",
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.oddcommon.base": "2.0.0",
-        "com.oddcommon.messaging": "2.0.0"
+        "com.oddcommon.base": "2.1.1",
+        "com.oddcommon.messaging": "2.1.0"
       }
     },
     "com.oddcommon.messaging": {
@@ -21,15 +21,17 @@
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.oddcommon.base": "2.1.1"
+        "com.oddcommon.base": "3.0.0"
       },
-      "hash": "3eb59d11c894c49dda7da2d70bbe986e68ce30d7"
+      "hash": "0888056f1c92cd7799caa9afa0d6424d3ec3c95d"
     },
     "com.unity.collab-proxy": {
-      "version": "1.3.9",
+      "version": "1.15.16",
       "depth": 0,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.services.core": "1.0.1"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
@@ -49,7 +51,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.7",
+      "version": "2.0.14",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -58,14 +60,23 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
-      "version": "1.2.3",
+      "version": "1.2.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.services.core": {
+      "version": "1.0.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.test-framework": {
-      "version": "1.1.24",
+      "version": "1.1.31",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -76,7 +87,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.4",
+      "version": "3.0.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -85,7 +96,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.4.7",
+      "version": "1.4.8",
       "depth": 0,
       "source": "registry",
       "dependencies": {
