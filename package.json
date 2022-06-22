@@ -1,10 +1,10 @@
 {
      "name": "com.oddcommon.lifecycle",
-     "version": "2.0.0",
+     "version": "3.0.0",
      "displayName": "OddCommon Lifecycle",
      "description": "This package provides Unity scripts/classes for application lifecycle management that can be used in OddCommon Unity projects.",
      "unity": "2020.3",
-     "dependencies": { "com.oddcommon.base":"2.1.1", "com.oddcommon.messaging":"2.1.0" },
+     "dependencies": { "com.oddcommon.base":"3.0.0", "com.oddcommon.messaging":"3.0.0" },
      "keywords": ["OddCommon", "Application", "Lifecycle"],
      "author": { "name": "OddCommon", "email": "ellis@oddcommon.com", "url": "http://oddcommon.com" }
  }
